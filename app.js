@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-mongoose.connect("mongodb://localhost:27017/userDB");
+mongoose.connect("mongodb+srv://Kentadmin:Kentadmin12345@cluster0.kyvfe.mongodb.net/SecretDatabase?retryWrites=true&w=majority");
 
 //normal schema
 // const userSchema = {
